@@ -1,4 +1,5 @@
 from .status import ORDER_FOUND, ORDER_NOT_FOUND, INVALID_AMOUNT
+from django.conf import settings
 
 
 class ClickUz:
@@ -32,3 +33,12 @@ class ClickUz:
         :return:
         """
         pass
+
+    @staticmethod
+    def generate_url(order_id, amount, return_url=None):
+        service_id = settings.CLICK_SETTINGS['service_id']
+        merchant_id = settings.CLICK_SETTINGS['merchant_id']
+        url = f"https://my.click.uz/services/pay?service_id={service_id}&merchant_id={merchant_id}&amount={amount}&transaction_param={order_id}"
+        if return_url:
+            url += f"&return_url={return_url}"
+        return url

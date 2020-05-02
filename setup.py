@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ClickUz",
-    version="0.1",
+    version="0.3",
     author="Sadullayev Bekhzod",
     author_email="begymrx@gmail.com",
     description="ClickUz",
