@@ -4,6 +4,7 @@
 ![alt text](https://img.shields.io/badge/code%20style-black-000000.svg)
 [![Downloads](https://img.shields.io/pypi/v/clickuz)](https://pypi.org/project/ClickUz)
 [![Downloads](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/begyy/ClickUz/blob/master/LICENSE)
+[![Downloads](https://img.shields.io/github/workflow/status/python-gino/gino/docs?label=docs&logo=github)](https://begyy.github.io/ClickUz/)
 ```console
 $ pip install clickuz
 ```
