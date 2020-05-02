@@ -5,4 +5,5 @@
 $ pip install clickuz
 ```
 
-# TODO ADD DOCUMENTATION
+TODO ADD DOCUMENTATION \
+TODO ADD TESTING :)
