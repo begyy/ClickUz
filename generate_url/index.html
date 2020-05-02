@@ -274,14 +274,11 @@
                 <h1 id="url-yaratish">Url yaratish<a class="headerlink" href="#url-yaratish" title="Permanent link">&para;</a></h1>
 <p>Click.uz saytiga yuborish uchun biza url yaratishmiza kerak
 bu url klientga korsatiladi va urlga kirganida klient pul tolash qismiga otib ketadi</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">clickuz</span> <span class="kn">import</span> <span class="n">ClickUz</span>
-
-<span class="n">url</span> <span class="o">=</span> <span class="n">ClickUz</span><span class="o">.</span><span class="n">generate_url</span><span class="p">(</span><span class="n">order_id</span><span class="o">=</span><span class="s1">&#39;1&#39;</span><span class="p">,</span><span class="n">amount</span><span class="o">=</span><span class="s1">&#39;500000&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
-</code></pre></div>
-
-<p>agar klient pul tolab bolganidan keyn saytga qaytib kelishini xoxlasangiz
+<div class="admonition return_url">
+<p class="admonition-title">Return_url</p>
+<p>Agar klient pul tolab bolganidan keyn saytga qaytib kelishini xoxlasangiz
 <em>return_url</em> ga ozingizni domain qoshib qoyishiz kerak boladi</p>
+</div>
 <p><div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">clickuz</span> <span class="kn">import</span> <span class="n">ClickUz</span>
 
 <span class="n">url</span> <span class="o">=</span> <span class="n">ClickUz</span><span class="o">.</span><span class="n">generate_url</span><span class="p">(</span><span class="n">order_id</span><span class="o">=</span><span class="s1">&#39;1&#39;</span><span class="p">,</span><span class="n">amount</span><span class="o">=</span><span class="s1">&#39;500000&#39;</span><span class="p">,</span><span class="n">return_url</span><span class="o">=</span><span class="s1">&#39;http://example.com&#39;</span><span class="p">)</span>
