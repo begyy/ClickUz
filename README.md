@@ -5,5 +5,5 @@
 $ pip install clickuz
 ```
 
-TODO ADD DOCUMENTATION \
-TODO ADD TESTING :)
+Documentation
+* https://begyy.github.io/ClickUz/

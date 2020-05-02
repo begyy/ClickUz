@@ -1,13 +1,28 @@
 site_name: ClickUz
+
 theme:
   name: material
+repo_name: begyy/ClickUz
+repo_url: https://github.com/begyy/ClickUz
+
 
 nav:
   - Kirish: index.md
   - Ishni boshlash: getting_started.md
+  - Url yaratish: generate_url.md
+  - Buyurtmani tekshirish: check_order.md
+
+
+
+
+
 google_analytics:
   - UA-133183413-1
   - auto
+
+
+
+
 markdown_extensions:
   - toc:
       permalink: true
@@ -32,7 +47,6 @@ extra_javascript:
   - js/termynal.js
   - js/custom.js
   - js/chat.js
-
 
 
 extra:

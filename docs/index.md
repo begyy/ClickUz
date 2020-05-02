@@ -5,6 +5,8 @@
 ```console
 $ pip install clickuz
 ---> 100%
+$ pip install django
+---> 100%
 $ pip install djangorestframework
 ---> 100%
 ```

@@ -19,7 +19,7 @@ def click_authorization(click_trans_id, amount, action, sign_time, sign_string, 
     """
     assert settings.CLICK_SETTINGS.get('service_id') != None
     assert settings.CLICK_SETTINGS.get('secret_key') != None
-    assert settings.CLICK_SETTINGS.get('merchant_user_id') != None
+    assert settings.CLICK_SETTINGS.get('merchant_id') != None
 
     service_id = settings.CLICK_SETTINGS['service_id']
     secret_key = settings.CLICK_SETTINGS['secret_key']
