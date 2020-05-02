@@ -44,3 +44,8 @@ urlpatterns = [
 
 Viewni url ga qoshdik endi click.exe programmasi
 bilan test qilb korsak boladi
+
+![alt text](https://i.imgur.com/jC6EN5D.png)
+
+* [ClickUz application](http://docs.click.uz/wp-content/uploads/2018/05/NEW-CLICK_API.zip)
+* [ClickUz Documentation](https://docs.click.uz/click-api-testing/)
