@@ -6,7 +6,7 @@
 [![Downloads](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/begyy/ClickUz/blob/master/LICENSE)
 [![Downloads](https://img.shields.io/badge/docs-passing-green)](https://begyy.github.io/ClickUz/)
 [![Downloads](https://img.shields.io/badge/Telegram-djangouzb-green)](https://t.me/djangouzb)
-
+[![Downloads](https://img.shields.io/badge/Author-begyy-black)](https://t.me/begyy)
 <div class="termy">
 
 ```console
