@@ -21,7 +21,7 @@ INVALID_AMOUNT = # buyurtma topildi narxi tori kelmadi
 views.py
 ```python
 from clickuz.views import ClickUzMerchantAPIView
-from clickuz.clickuz import ClickUz
+from clickuz import ClickUz
 
 class OrderCheckAndPayment(ClickUz):
     def check_order(self, order_id: str, amount: str):
