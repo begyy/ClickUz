@@ -1,7 +1,7 @@
 ![alt text](https://i.imgur.com/JodvWCx.jpg)
 
 
-[![Downloads](https://github.com/begyy/clickuz-test/workflows/Django%20CI/badge.svg)](https://github.com/begyy/clickuz-test/actions/runs/94721320)
+[![Downloads](https://github.com/begyy/clickuz-test/workflows/test/badge.svg)](https://github.com/begyy/clickuz-test/actions/runs/94721320)
 [![Downloads](https://pepy.tech/badge/clickuz)](https://pepy.tech/project/clickuz)
 ![alt text](https://img.shields.io/badge/code%20style-black-000000.svg)
 [![Downloads](https://img.shields.io/pypi/v/clickuz)](https://pypi.org/project/ClickUz)
