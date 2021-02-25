@@ -11,7 +11,8 @@ INSTALLED_APPS = [
 CLICK_SETTINGS = {
     'service_id':'1',
     'merchant_id':'1',
-    'secret_key':'1'
+    'secret_key':'1',
+    'merchant_user':'1'
 }
 ```
 undan song quydagi komandani bajarishimiza kerak yani bazani migrate qilb olish kerak
